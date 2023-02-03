@@ -1,0 +1,39 @@
+#container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+}
+.typing-text{
+    padding: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.0rem;
+    text-align: center;
+    border-radius: 10px;
+}
+.typing{
+    text-align: center;
+
+}
+h5{
+    font-size: 1rem;
+}
+.form{
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+    width: fit-content;
+    padding: 20px;
+    height: fit-content;
+    border-radius: 10px;
+}
+#show-text{
+   padding: 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
