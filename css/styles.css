@@ -1,14 +1,23 @@
 #container{
   width: 100vw;
   height: 100vh;
-  display: flex;
   justify-content: center;
-  align-items: center;
+  display: flex;
 }
 h1{
     font-family: 'Maven Pro', sans-serif;
     font-size: 2rem;
     text-align: center;
+}
+.errors{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    font-size: 1rem;
+}
+.timer{
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    font-size: 1rem;
 }
 .typing-text{
     padding: 10px;
