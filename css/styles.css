@@ -1,48 +1,113 @@
-#container{
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  display: flex;
-}
-h1{
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 2rem;
+body {
+    background-color: rgb(73, 215, 109);
+    color: black;
     text-align: center;
-}
-.errors{
-    font-family: 'Maven Pro', sans-serif;
-    text-align: center;
-    font-size: 1rem;
-}
-.timer{
-    font-family: 'Maven Pro', sans-serif;
-    text-align: center;
-    font-size: 1rem;
-}
-.typing-text{
+  }
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+   
+.heading {
+    margin-bottom: 20px;
+    font-size: 3rem;
+    color: black;
+  }
+   
+.header {
+    display: flex;
+    align-items: center;
+  }
+   
+.timer, .score{
+    background-color: #ccda46;
+    height: 80px;
+    width: 70px;
+    margin: 5px;
     padding: 10px;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 1.0rem;
+    border-radius: 20%;
+    box-shadow: black 5px 8px 5px;
+  }
+.header-text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+  }
+   
+.time-number, .score-number {
+    margin-bottom: 70px;
+    font-size: 2.0rem;
+  }
+   
+.list-text {
+    background-color: #ccda46;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+  }
+.word-below{
+    text-transform: uppercase;
+  }
+.input-box {
+    background-color: #f5f5c6;
+    height: 60px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+  }
+.keyboard {
     text-align: center;
-    border-radius: 10px;
+    font-size: 14px;
+    font-family: sans-serif;
+    width: 800px;
+    margin-left: 360px;
 }
-.typing{
+.keyboard__row {
+    display: inline-block;
+    height: 3em;
+    margin: 0.2em;
+    justify-content: center;
+    
+}
+.keyboard__row > * {
+    position: relative;
+    background: #333;
     text-align: center;
+    color: #eee;
+    float: left;
+    border-radius: 0.3em;
+    margin: 0.2em;
+    padding: 0.2em;
+    width: 3.3em;
+    height: 100%;
+    box-sizing: border-box;
+    cursor: pointer;
+    -webkit-user-select: none;
+    border: 1px solid #444;
+    box-shadow: 0 0.2em 0 0.05em #222;
+    border-bottom-color: #555;
+}
+.keyboard__row > div[data-pressed],
+.keyboard__row > div:active {
+    background: #2a2a2a;
+    color: #aaa;
+    position: relative;
+    top: 0.2em;
+    box-shadow: 0 0 0 0.05em black;
+}
+.keyboard > .keyboard__row {
+    text-align: center;
+    justify-content: center;
 
 }
-h5{
-    font-size: 1rem;
-}
-.form{
-   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
-    width: fit-content;
-    padding: 20px;
-    height: fit-content;
-    border-radius: 10px;
-}
-#show-text{
-   padding: 10px;
-    font-family: 'Maven Pro', sans-serif;
-    font-size: 1.5rem;
-    text-align: center;
-}
+ 
+   
+  
+   
+ 
