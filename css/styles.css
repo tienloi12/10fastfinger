@@ -22,7 +22,7 @@ body {
    
 .timer, .score{
     background-color: #ccda46;
-    height: 80px;
+    height: 90px;
     width: 70px;
     margin: 5px;
     padding: 10px;
@@ -31,7 +31,7 @@ body {
   }
 .header-text {
     text-transform: uppercase;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
     font-weight: 600;
   }
    
@@ -48,11 +48,16 @@ body {
     box-shadow: black 5px 8px 5px;
   }
 .word-below{
-    text-transform: uppercase;
+    padding: 20px;
+    font-size: 25px;
   }
+#title-word
+{
+  padding: 30px;
+}
 .input-box {
     background-color: #f5f5c6;
-    height: 60px;
+    height: 20px;
     width: 40%;
     font-size: 1.5rem;
     font-weight: 600;
@@ -62,6 +67,7 @@ body {
     box-shadow: black 5px 8px 5px;
   }
 .keyboard {
+  
     text-align: center;
     font-size: 14px;
     font-family: sans-serif;
